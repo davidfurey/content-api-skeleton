@@ -1,6 +1,7 @@
 package app
 
 import scala.concurrent.ExecutionContext.Implicits.global
+import app.contentutils.ArticleCounter
 
 object App {
   def main(args: Array[String]) {

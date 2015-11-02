@@ -1,8 +1,9 @@
-package app
+package app.contentutils
 
-import com.gu.contentapi.client.model.SearchQuery
 import com.gu.contentapi.client.GuardianContentClient
+import com.gu.contentapi.client.model.SearchQuery
 import org.joda.time.DateTime
+
 import scala.concurrent.ExecutionContext.Implicits.global
 
 class ArticleCounter {
